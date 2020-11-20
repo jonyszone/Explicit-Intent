@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practices</string>
+    <string name="empty_fields_error_message">Fields must not be empty</string>
+    <string name="student_name">Student Name</string>
+    <string name="student_age">Student Age</string>
+    <string name="student_phone">Student Phone</string>
+    <string name="student_email">Student Email</string>
+    <string name="register_button">Register</string>
+</resources>

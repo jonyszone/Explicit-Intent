@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentInfoActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/cardview_dark_background">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_name"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/row_student_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/cardview_dark_background">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_age"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/row_student_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/cardview_dark_background">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_phone"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/row_student_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/cardview_dark_background">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_email"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/row_student_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/studentAgeOutput"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/student_age"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:gravity="center"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/studentPhoneOutput"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/student_phone"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:gravity="center"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/studentEmailOutput"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/student_email"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:gravity="center"-->
+    <!--        />-->
+
+</RelativeLayout>
